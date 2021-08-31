@@ -1,0 +1,186 @@
+/*TAGS*/
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*NAV BAR*/
+#title {
+    background-color: #F9B208;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    margin-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+
+
+.row {
+    margin: 0;
+}
+
+.download-button {
+    margin: 3% 5% 3% 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.title-img-container {
+    position: relative;
+
+}
+
+/*FEATURES*/
+
+.features-container {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #F7FD04;
+    margin-bottom: 25px;
+}
+
+.feature-icon:hover {
+    color: #F9B208;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials {
+    background-color: #F9B208;
+    text-align: center;
+    color: white;
+}
+
+.carousel {
+    height: 600px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #F9B208;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*PRICING*/
+#pricing {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 3%;
+}
+
+/*CTA*/
+
+#cta {
+    background-color: #F9B208;
+    text-align: center;
+    color: white;
+    padding: 7% 20%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 20%;
+}
+
+.bottom-icons {
+    color: black;
+    margin: 5px;
+
+}
+
+@media (max-width: 1000px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .title-img-container {
+        position: static;
+    }
+
+    .features-container {
+        position: static;
+    }
+
+
+}
